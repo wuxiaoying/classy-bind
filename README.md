@@ -1,4 +1,4 @@
-classy-bind
-===========
+classy-on
+=========
 
-Bind event plugin for Angular Classy
+On event plugin for Angular Classy 
