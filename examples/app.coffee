@@ -6,8 +6,7 @@
 app.directive 'bindClickDirective', ->
     restrict: 'E'
     controller: 'BindController'
-    template: 
-        "<div ng-bind='message'></div>"
+    template: "<div ng-bind='message'></div>"
     
 app.classy.controller
     name: 'BindController'
