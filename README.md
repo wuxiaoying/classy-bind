@@ -45,21 +45,6 @@ app.classy.controller({
 	
 	// ...
 
-	initScope: {
-		cow: "bessie"
-	}
-});
-```
-
-### initScope property with function 
-
-This is useful if you want to use services or do other initial work while setting the initial scope variables. 
-
-```javascript
-app.classy.controller({
-	
-	// ...
-
   bind: 
     click: function (event) {
       this.$.clicked = true
