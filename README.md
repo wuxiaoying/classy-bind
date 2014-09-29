@@ -45,10 +45,11 @@ app.classy.controller({
 	
 	// ...
 
-  bind: 
+  bind: {
     click: function (event) {
       this.$.clicked = true
     };
+  }
 });
 ```
 
