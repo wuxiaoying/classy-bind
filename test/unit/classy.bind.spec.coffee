@@ -1,5 +1,4 @@
 ﻿# Test Data
-
 app = angular.module 'classyBindTest', [
     'classy'
     'classy-bind'
