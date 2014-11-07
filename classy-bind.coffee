@@ -1,4 +1,4 @@
-﻿bind_module = angular.module 'classy-bind', ['classy-core']
+﻿bind_module = angular.module 'classy-bind', ['classy.core']
 
 bind_module.classy.plugin.controller
     name: 'bind'
